@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color: black;
+}
+li{
+    cursor: pointer;
+    list-style: none;
+    background-color: black!important;
+    color:white;
+}
+html{
+    color:white;
+}
+button{
+    background-color: darkgray; 
+}
+input{
+    border:none;
+    border: 1px solid white;
+    padding: .5rem;
+    margin: 1rem;
+}
+.selected-list{
+    color:orange;
+}
+.list-name{
+    background-color: #fff;
+}

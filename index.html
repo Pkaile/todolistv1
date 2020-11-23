@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="eng-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+   
+    <div class="tasks-all">
+        <h3 class="task-list-title">Lists</h3>
+        <ul class="task-list" data-listed>
+
+        </ul>
+        <form action="" data-newlist-form>
+            <input type="text" class="add-list" data-newlist-input placeholder="insert list name" aria-label="insert list name" />
+            <button class="btn-create" aria-label="add new list">Add List</button>
+        </form>
+    </div>
+    <div class="delete-obj">
+        <button class="delete" data-delete-list>delete Selected List</button>
+    </div>
+    <div class="todo-items"></div>
+    <div class="todo-header">
+        <h1 class="list-title" data-todo-task-title>Title</h1>
+        <p class="task-count" data-todo-task-count>3 tasks remaining</p>
+    </div>
+    <button data-clear-task>Clear Completed Tasks</button>
+    <div class="task-body" data-todo-tasklist>
+    </div>
+    <form action="" data-newcard-form>
+            <input type="text" placeholder="insert card title" data-card-title />
+            <button type="submit" aria-label="add card">Add Card</button>
+        </form>
+    <template id="task-template">
+        <div class="task">
+            <input type="checkbox"/>
+            <label>Feed the dog</label>
+        </div>
+    </template>
+    <script src="main.js"></script>
+
+</body>
+
+</html>
